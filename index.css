@@ -18,7 +18,9 @@ body {
 
 .container{
     border-radius: 24px;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(253, 218, 187, 0.295);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
     padding: 10px 10px;
     border: 1px solid #1A1D20;
     
