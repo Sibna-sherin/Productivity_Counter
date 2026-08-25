@@ -9,10 +9,10 @@ body {
     min-height: 100vh;
     max-width: 80%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    padding: 20px 20px 20px 20px;
+    justify-content: flex-start;
+    align-items: start;
+    margin:0px;
+    padding: 130px 20px 20px 70px;
     box-sizing: border-box;
 }
 
@@ -22,7 +22,7 @@ body {
     padding: 10px 10px;
     border: 1px solid #1A1D20;
     
-    margin: left;
+    margin: 0;
 }
 
 h1 {
