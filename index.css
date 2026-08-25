@@ -1,0 +1,67 @@
+body {
+    background-image: url("prod.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family:  'Plus Jakarta sans', sans-serif;
+    text-align: center;
+    
+    min-height: 100vh;
+    max-width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 20px 20px 20px 20px;
+    box-sizing: border-box;
+}
+
+.container{
+    border-radius: 24px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px 10px;
+    border: 1px solid #1A1D20;
+    
+    margin: auto;
+}
+
+h1 {
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  
+}
+
+h2 {
+    font-size: 56px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+h1,h2 {color: #1A1D20;}
+p{
+    font-size: medium;
+    font-weight: 600;
+}
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+#increment-btn {
+    background-color: #222222; color: #ffffff; 
+}
+
+#save-btn {
+     background-color: #ffffff; color: #1A1D20; border: 1px solid #1A1D20;
+}
+
